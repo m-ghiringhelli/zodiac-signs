@@ -4,8 +4,6 @@ import './Main.css';
 import Sign from '../Sign/Sign.js';
 import { zodiac } from '../../data.js';
 
-console.log(zodiac);
-
 export default function Main() {
   return (
     <main>
