@@ -10,12 +10,17 @@ body {
 .sign {
     width: 200px;
     background-color: var(--color4);
-    margin: 20px;
+    margin: 30px;
     padding: 50px;
     border-radius: 50px;
     color: var(--color3);
     border: 5px solid var(--color3);
     box-shadow: 0px 0px 0px 5px var(--color1);
+    transition: transform 1s;
+}
+
+.sign:hover {
+    transform: scale(1.2);
 }
 
 .sign img {
