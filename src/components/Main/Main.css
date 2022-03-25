@@ -1,0 +1,16 @@
+body {
+    /* CSS HSL */
+    --color1: hsla(8, 100%, 68%, 1);
+    --color2: hsla(256, 99%, 65%, 1);
+    --color3: hsla(0, 0%, 100%, 1);
+    --color4: hsla(172, 70%, 39%, 1);
+    --color5: hsla(16, 19%, 27%, 1);
+}
+
+main {
+    background-color: var(--color5);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 40px;
+}

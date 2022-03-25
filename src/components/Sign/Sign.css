@@ -1,0 +1,44 @@
+body {
+    /* CSS HSL */
+    --color1: hsla(8, 100%, 68%, 1);
+    --color2: hsla(256, 99%, 65%, 1);
+    --color3: hsla(0, 0%, 100%, 1);
+    --color4: hsla(172, 70%, 39%, 1);
+    --color5: hsla(16, 19%, 27%, 1);
+}
+
+.sign {
+    width: 200px;
+    background-color: var(--color4);
+    margin: 30px;
+    padding: 50px;
+    border-radius: 50px;
+    color: var(--color3);
+    border: 5px solid var(--color3);
+    box-shadow: 0px 0px 0px 5px var(--color1);
+    transition: transform 1s;
+}
+
+.sign:hover {
+    transform: scale(1.2);
+}
+
+.sign img {
+    background-color: var(--color3);
+    padding: 20px;
+    border: 5px solid var(--color2);
+}
+
+.sign h2 {
+    background-color: var(--color2);
+    padding: 5px;
+    border: 3px solid var(--color1);
+    border-radius: 5px;
+    font-family: 'Karla';
+    font-size: 1.8rem;
+}
+
+.sign span {
+    font-family: 'Sansita Swashed';
+    font-size: 1.2rem;
+}

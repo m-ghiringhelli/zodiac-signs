@@ -1,0 +1,10 @@
+footer {
+    background-color: white;
+    color: var(--color5);
+    font-family: '';
+    text-align: right;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
